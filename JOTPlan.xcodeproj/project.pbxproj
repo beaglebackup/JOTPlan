@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF46F0CB194FF3A600C06011 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF46F0C9194FF3A600C06011 /* MainStoryboard_iPad.storyboard */; };
+		EF860A601953ECAB00AB026D /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF860A5F1953ECAB00AB026D /* CoreText.framework */; };
+		EF9EE01D192F05B60007524D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9EE01C192F05B60007524D /* Foundation.framework */; };
+		EF9EE01F192F05B60007524D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9EE01E192F05B60007524D /* CoreGraphics.framework */; };
+		EF9EE021192F05B60007524D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9EE020192F05B60007524D /* UIKit.framework */; };
+		EF9EE027192F05B60007524D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF9EE025192F05B60007524D /* InfoPlist.strings */; };
+		EF9EE029192F05B60007524D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9EE028192F05B60007524D /* main.m */; };
+		EF9EE02D192F05B60007524D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9EE02C192F05B60007524D /* AppDelegate.m */; };
+		EF9EE030192F05B60007524D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF9EE02E192F05B60007524D /* Main.storyboard */; };
+		EF9EE033192F05B60007524D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9EE032192F05B60007524D /* HomeViewController.m */; };
+		EF9EE035192F05B60007524D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF9EE034192F05B60007524D /* Images.xcassets */; };
+		EF9EE03C192F05B60007524D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9EE03B192F05B60007524D /* XCTest.framework */; };
+		EF9EE03D192F05B60007524D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9EE01C192F05B60007524D /* Foundation.framework */; };
+		EF9EE03E192F05B60007524D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9EE020192F05B60007524D /* UIKit.framework */; };
+		EF9EE046192F05B60007524D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF9EE044192F05B60007524D /* InfoPlist.strings */; };
+		EF9EE048192F05B60007524D /* JOTPlanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9EE047192F05B60007524D /* JOTPlanTests.m */; };
+		EF9EE055192F12920007524D /* MaterialsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9EE054192F12920007524D /* MaterialsViewController.m */; };
+		EF9EE058192F12C70007524D /* LaborViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9EE057192F12C70007524D /* LaborViewController.m */; };
+		EF9EE05B192F12E30007524D /* DocumentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9EE05A192F12E30007524D /* DocumentsViewController.m */; };
+		EF9EE061192F16DF0007524D /* IPMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9EE060192F16DF0007524D /* IPMViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF9EE03F192F05B60007524D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF9EE011192F05B60007524D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF9EE018192F05B60007524D;
+			remoteInfo = JOTPlan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF46F0CA194FF3A600C06011 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		EF860A5F1953ECAB00AB026D /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		EF9EE019192F05B60007524D /* JOTPlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JOTPlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF9EE01C192F05B60007524D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF9EE01E192F05B60007524D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF9EE020192F05B60007524D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF9EE024192F05B60007524D /* JOTPlan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JOTPlan-Info.plist"; sourceTree = "<group>"; };
+		EF9EE026192F05B60007524D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF9EE028192F05B60007524D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF9EE02A192F05B60007524D /* JOTPlan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JOTPlan-Prefix.pch"; sourceTree = "<group>"; };
+		EF9EE02B192F05B60007524D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF9EE02C192F05B60007524D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF9EE02F192F05B60007524D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF9EE031192F05B60007524D /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		EF9EE032192F05B60007524D /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		EF9EE034192F05B60007524D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF9EE03A192F05B60007524D /* JOTPlanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JOTPlanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF9EE03B192F05B60007524D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EF9EE043192F05B60007524D /* JOTPlanTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JOTPlanTests-Info.plist"; sourceTree = "<group>"; };
+		EF9EE045192F05B60007524D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF9EE047192F05B60007524D /* JOTPlanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JOTPlanTests.m; sourceTree = "<group>"; };
+		EF9EE053192F12920007524D /* MaterialsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaterialsViewController.h; sourceTree = "<group>"; };
+		EF9EE054192F12920007524D /* MaterialsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaterialsViewController.m; sourceTree = "<group>"; };
+		EF9EE056192F12C70007524D /* LaborViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaborViewController.h; sourceTree = "<group>"; };
+		EF9EE057192F12C70007524D /* LaborViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaborViewController.m; sourceTree = "<group>"; };
+		EF9EE059192F12E30007524D /* DocumentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentsViewController.h; sourceTree = "<group>"; };
+		EF9EE05A192F12E30007524D /* DocumentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentsViewController.m; sourceTree = "<group>"; };
+		EF9EE05F192F16DF0007524D /* IPMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPMViewController.h; sourceTree = "<group>"; };
+		EF9EE060192F16DF0007524D /* IPMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPMViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF9EE016192F05B60007524D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF860A601953ECAB00AB026D /* CoreText.framework in Frameworks */,
+				EF9EE01F192F05B60007524D /* CoreGraphics.framework in Frameworks */,
+				EF9EE021192F05B60007524D /* UIKit.framework in Frameworks */,
+				EF9EE01D192F05B60007524D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF9EE037192F05B60007524D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF9EE03C192F05B60007524D /* XCTest.framework in Frameworks */,
+				EF9EE03E192F05B60007524D /* UIKit.framework in Frameworks */,
+				EF9EE03D192F05B60007524D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF9EE010192F05B60007524D = {
+			isa = PBXGroup;
+			children = (
+				EF9EE022192F05B60007524D /* JOTPlan */,
+				EF9EE041192F05B60007524D /* JOTPlanTests */,
+				EF9EE01B192F05B60007524D /* Frameworks */,
+				EF9EE01A192F05B60007524D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF9EE01A192F05B60007524D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF9EE019192F05B60007524D /* JOTPlan.app */,
+				EF9EE03A192F05B60007524D /* JOTPlanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF9EE01B192F05B60007524D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF860A5F1953ECAB00AB026D /* CoreText.framework */,
+				EF9EE01C192F05B60007524D /* Foundation.framework */,
+				EF9EE01E192F05B60007524D /* CoreGraphics.framework */,
+				EF9EE020192F05B60007524D /* UIKit.framework */,
+				EF9EE03B192F05B60007524D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF9EE022192F05B60007524D /* JOTPlan */ = {
+			isa = PBXGroup;
+			children = (
+				EF9EE02B192F05B60007524D /* AppDelegate.h */,
+				EF9EE02C192F05B60007524D /* AppDelegate.m */,
+				EF9EE02E192F05B60007524D /* Main.storyboard */,
+				EF46F0C9194FF3A600C06011 /* MainStoryboard_iPad.storyboard */,
+				EF9EE031192F05B60007524D /* HomeViewController.h */,
+				EF9EE032192F05B60007524D /* HomeViewController.m */,
+				EF9EE05F192F16DF0007524D /* IPMViewController.h */,
+				EF9EE060192F16DF0007524D /* IPMViewController.m */,
+				EF9EE053192F12920007524D /* MaterialsViewController.h */,
+				EF9EE054192F12920007524D /* MaterialsViewController.m */,
+				EF9EE056192F12C70007524D /* LaborViewController.h */,
+				EF9EE057192F12C70007524D /* LaborViewController.m */,
+				EF9EE059192F12E30007524D /* DocumentsViewController.h */,
+				EF9EE05A192F12E30007524D /* DocumentsViewController.m */,
+				EF9EE034192F05B60007524D /* Images.xcassets */,
+				EF9EE023192F05B60007524D /* Supporting Files */,
+			);
+			path = JOTPlan;
+			sourceTree = "<group>";
+		};
+		EF9EE023192F05B60007524D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF9EE024192F05B60007524D /* JOTPlan-Info.plist */,
+				EF9EE025192F05B60007524D /* InfoPlist.strings */,
+				EF9EE028192F05B60007524D /* main.m */,
+				EF9EE02A192F05B60007524D /* JOTPlan-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF9EE041192F05B60007524D /* JOTPlanTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF9EE047192F05B60007524D /* JOTPlanTests.m */,
+				EF9EE042192F05B60007524D /* Supporting Files */,
+			);
+			path = JOTPlanTests;
+			sourceTree = "<group>";
+		};
+		EF9EE042192F05B60007524D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF9EE043192F05B60007524D /* JOTPlanTests-Info.plist */,
+				EF9EE044192F05B60007524D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF9EE018192F05B60007524D /* JOTPlan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF9EE04B192F05B60007524D /* Build configuration list for PBXNativeTarget "JOTPlan" */;
+			buildPhases = (
+				EF9EE015192F05B60007524D /* Sources */,
+				EF9EE016192F05B60007524D /* Frameworks */,
+				EF9EE017192F05B60007524D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JOTPlan;
+			productName = JOTPlan;
+			productReference = EF9EE019192F05B60007524D /* JOTPlan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF9EE039192F05B60007524D /* JOTPlanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF9EE04E192F05B60007524D /* Build configuration list for PBXNativeTarget "JOTPlanTests" */;
+			buildPhases = (
+				EF9EE036192F05B60007524D /* Sources */,
+				EF9EE037192F05B60007524D /* Frameworks */,
+				EF9EE038192F05B60007524D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF9EE040192F05B60007524D /* PBXTargetDependency */,
+			);
+			name = JOTPlanTests;
+			productName = JOTPlanTests;
+			productReference = EF9EE03A192F05B60007524D /* JOTPlanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF9EE011192F05B60007524D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Gabriel;
+				TargetAttributes = {
+					EF9EE039192F05B60007524D = {
+						TestTargetID = EF9EE018192F05B60007524D;
+					};
+				};
+			};
+			buildConfigurationList = EF9EE014192F05B60007524D /* Build configuration list for PBXProject "JOTPlan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF9EE010192F05B60007524D;
+			productRefGroup = EF9EE01A192F05B60007524D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF9EE018192F05B60007524D /* JOTPlan */,
+				EF9EE039192F05B60007524D /* JOTPlanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF9EE017192F05B60007524D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF46F0CB194FF3A600C06011 /* MainStoryboard_iPad.storyboard in Resources */,
+				EF9EE035192F05B60007524D /* Images.xcassets in Resources */,
+				EF9EE027192F05B60007524D /* InfoPlist.strings in Resources */,
+				EF9EE030192F05B60007524D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF9EE038192F05B60007524D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF9EE046192F05B60007524D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF9EE015192F05B60007524D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF9EE033192F05B60007524D /* HomeViewController.m in Sources */,
+				EF9EE05B192F12E30007524D /* DocumentsViewController.m in Sources */,
+				EF9EE061192F16DF0007524D /* IPMViewController.m in Sources */,
+				EF9EE055192F12920007524D /* MaterialsViewController.m in Sources */,
+				EF9EE02D192F05B60007524D /* AppDelegate.m in Sources */,
+				EF9EE058192F12C70007524D /* LaborViewController.m in Sources */,
+				EF9EE029192F05B60007524D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF9EE036192F05B60007524D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF9EE048192F05B60007524D /* JOTPlanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF9EE040192F05B60007524D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF9EE018192F05B60007524D /* JOTPlan */;
+			targetProxy = EF9EE03F192F05B60007524D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF46F0C9194FF3A600C06011 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF46F0CA194FF3A600C06011 /* Base */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		EF9EE025192F05B60007524D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF9EE026192F05B60007524D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EF9EE02E192F05B60007524D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF9EE02F192F05B60007524D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF9EE044192F05B60007524D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF9EE045192F05B60007524D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF9EE049192F05B60007524D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "07D733A4-D891-41DE-9AEC-7AE0F82EDBA1";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF9EE04A192F05B60007524D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "07D733A4-D891-41DE-9AEC-7AE0F82EDBA1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF9EE04C192F05B60007524D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JOTPlan/JOTPlan-Prefix.pch";
+				INFOPLIST_FILE = "JOTPlan/JOTPlan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "652DB5E9-01CA-4F50-8A88-7DBE8604F341";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EF9EE04D192F05B60007524D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JOTPlan/JOTPlan-Prefix.pch";
+				INFOPLIST_FILE = "JOTPlan/JOTPlan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "652DB5E9-01CA-4F50-8A88-7DBE8604F341";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EF9EE04F192F05B60007524D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JOTPlan.app/JOTPlan";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JOTPlan/JOTPlan-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JOTPlanTests/JOTPlanTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EF9EE050192F05B60007524D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JOTPlan.app/JOTPlan";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JOTPlan/JOTPlan-Prefix.pch";
+				INFOPLIST_FILE = "JOTPlanTests/JOTPlanTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF9EE014192F05B60007524D /* Build configuration list for PBXProject "JOTPlan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF9EE049192F05B60007524D /* Debug */,
+				EF9EE04A192F05B60007524D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF9EE04B192F05B60007524D /* Build configuration list for PBXNativeTarget "JOTPlan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF9EE04C192F05B60007524D /* Debug */,
+				EF9EE04D192F05B60007524D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF9EE04E192F05B60007524D /* Build configuration list for PBXNativeTarget "JOTPlanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF9EE04F192F05B60007524D /* Debug */,
+				EF9EE050192F05B60007524D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF9EE011192F05B60007524D /* Project object */;
+}
